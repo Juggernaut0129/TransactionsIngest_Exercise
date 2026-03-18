@@ -16,8 +16,9 @@ If desiring to use a custom SQLite database, ensure that it is present in APP_PA
 
 
 DESIGN NOTES:
--For the sake of simplicity, the class making the API calls (SnapshotHandler) uses a straightforward instance of the HttpClient class and makes a call without any further parameters such as time or duration, with the assumption that the api will handle such things on its end automatically.
--The unit tests automatically blank the database file in order to create a clean test environment. Ensure that the database file used doesn't contain anything you are not willing to lose.
+For the sake of simplicity, the class making the API calls (SnapshotHandler) uses a straightforward instance of the HttpClient class and makes a call without any further parameters such as time or duration, with the assumption that the api will handle such things on its end automatically.
+
+The unit tests automatically blank the database file in order to create a clean test environment. Ensure that the database file used doesn't contain anything you are not willing to lose.
 
 APPROACH:
 This work was tackled in a test-first approach, crafting unit tests first and designing the code to pass them. The code places on emphasis on being concise and complete, but not robust. Error reporting is left out for conciseness and the convenience of anyone reviewing the code by hand. Although I strove to wrote self-documenting code in variable, function, and test names, comments were used to better describe and break up larger sections of code to enhance readability.
