@@ -1,5 +1,5 @@
 # TransactionsIngest_Exercise
-This is a demo project to demonstrate a small console app which accesses a database and performs CRUD operations.
+This is a demo project to demonstrate a small console app which accesses a database and performs CRUD operations. It is built from the standard .NET console template; all custom files can be found in ConsoleApp1->ConsoleApp1
 
 LOCAL SETUP:
 These setup instructions assume that you have a Visual Studio environment capable of running .NET 10 with Entity Framework Core and SQLite. 
